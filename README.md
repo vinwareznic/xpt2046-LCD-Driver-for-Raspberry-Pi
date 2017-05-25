@@ -7,8 +7,8 @@
 
 ## How to Install
 1. Install Raspbian OS (If you have installed, you may skip this step)
-  - Download official Raspbian-Jessie image from [Raspberry Pi official website](https://www.raspberrypi.org/downloads/)
-  - Download [Etcher](https://etcher.io/) or other tools to burn image to your SD card
+    - Download official Raspbian-Jessie image from [Raspberry Pi official website](https://www.raspberrypi.org/downloads/)
+    - Download [Etcher](https://etcher.io/) or other tools to burn image to your SD card
      
 2. Clone this repo into your pi, open LX Terminal and enter following commands:
 
@@ -19,34 +19,15 @@
 ```
   
 3. According to your LCD's type, execute:
-  - 2.8" LCD
-  
-    `$ sudo ./LCD28-show`
-  - 3.2" LCD
-  
-    `$ sudo ./LCD32-show`
-  - 3.5" LCD
-  
-    `$ sudo ./LCD35-show`
-  - 3.97" LCD
-  
-    `$ sudo ./LCD397-show`
-  - 4.3" LCD
-  
-    `$ sudo ./LCD43-show`
-  - 5" LCD
-  
-    `$ sudo ./LCD5-show`
-  - 7inch(B)-800X480 RPI LCD
-  
-    `$ sudo ./LCD7B-show`
-  - 7inch(C)-1024X600 RPI LCD
-  
-    `$ sudo ./LCD7C-show`
-  
-  - If you need to switch back to the traditional HDMI display
-  
-    `$ sudo ./LCD-hdmi`
+    - 2.8" LCD - `$ sudo ./LCD28-show`
+    - 3.2" LCD - `$ sudo ./LCD32-show`
+    - 3.5" LCD - `$ sudo ./LCD35-show`
+    - 3.97" LCD - `$ sudo ./LCD397-show`
+    - 4.3" LCD - `$ sudo ./LCD43-show`
+    - 5" LCD - `$ sudo ./LCD5-show`
+    - 7inch(B)-800X480 RPI LCD - `$ sudo ./LCD7B-show`
+    - 7inch(C)-1024X600 RPI LCD - `$ sudo ./LCD7C-show`
+    - Original HDMI display - `$ sudo ./LCD-hdmi`
 
 4. Wait a few minutes, the system will restart automatically.
 
