@@ -7,7 +7,7 @@
 
 ## How to Install
 1. Install Raspbian OS (If you have installed, you may skip this step)
-  - Download official Raspbian-Jessie image from [Raspberry Pi official website](https://www.raspberrypi.org/downloads/)
+  - Download official Raspbian-Jessie image from [Raspberry Pi official website](https://www.raspberrypi.org/downloads/raspbian/)
   - Download [Etcher](https://etcher.io/) or other tools to burn image to your SD card
      
 2. Clone this repo into your pi, open LX Terminal and enter following commands:
